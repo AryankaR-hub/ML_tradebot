@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+temp/
+tmp/
+
+# Model training artifacts
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Large datasets (optional)
+data/raw/
+data/temp/
+
+# Build folders
+build/
+dist/
+
+# Environment variables
+.env
+
+# Cache
+.cache/
+
+# Matplotlib cache
+.matplotlib/
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# SQLite
+*.sqlite3
+
+# Render / deployment junk
+*.bak
+*.swp
