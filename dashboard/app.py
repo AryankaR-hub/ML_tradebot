@@ -32,15 +32,14 @@ AMBER = "#C9943A"
 WHITE = "#F5F0E8"
 
 SENT_PALETTE = {
-    "Extreme Fear":  RED,
     "Fear":          AMBER,
     "Neutral":       MUTED,
     "Greed":         GREEN,
     "Extreme Greed": GOLD,
 }
-SENT_ORDER   = ["Extreme Fear", "Fear", "Neutral", "Greed", "Extreme Greed"]
+SENT_ORDER   = ["Fear", "Neutral", "Greed", "Extreme Greed"]
 SENT_VAL_MAP = {
-    "Extreme Fear": 8, "Fear": 25, "Neutral": 50,
+    "Fear": 25, "Neutral": 50,
     "Greed": 75, "Extreme Greed": 92,
 }
 
